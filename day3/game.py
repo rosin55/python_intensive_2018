@@ -238,5 +238,4 @@ while True:
 	answer = window.textinput(title='Привет!', prompt='Хотите сыграть еще? д/н')
 	if answer.lower() not in ('д', 'да', 'y', 'yes'):
 		break
-window.clear()
-window.close()
+window.exitonclick()
