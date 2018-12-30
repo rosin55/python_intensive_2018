@@ -195,6 +195,7 @@ window.setup(1200 + 3, 800 + 3)
 window.screensize(1200, 800)
 
 
+
 def game():
 	global our_missiles, enemy_missiles, buildings, base
 
@@ -202,6 +203,7 @@ def game():
 	window.bgpic(os.path.join(BASE_PATH, "images", "background.png"))
 	window.tracer(n=2)
 	window.onclick(fire_missile)
+	# window.tracer(n=2)
 
 	our_missiles = []
 	enemy_missiles = []
